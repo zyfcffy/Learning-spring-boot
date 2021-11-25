@@ -25,8 +25,13 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
+	// spock test
 	testImplementation "org.spockframework:spock-core:2.0-groovy-3.0"
 	testImplementation 'org.spockframework:spock-spring:2.0-groovy-3.0'
+
+	// Kafka
+	implementation 'org.springframework.kafka:spring-kafka:2.7.6'
+	testImplementation 'org.springframework.kafka:spring-kafka-test:2.7.6'
 }
 
 test {
