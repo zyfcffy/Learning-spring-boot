@@ -1,0 +1,4 @@
+spring:
+  kafka:
+    bootstrapserver: localhost:29092
+    topic : user
